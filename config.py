@@ -13,6 +13,7 @@ import os
 current_dir    = os.path.abspath(os.path.dirname(__file__))
 ROOT_DIR       = os.path.abspath(os.path.join(current_dir, '../../')) + os.sep
 REPORTS_DIR    = os.path.abspath(os.path.join(ROOT_DIR, 'reports')) + os.sep
-SRC_DIR        = os.path.abspath(os.path.join(ROOT_DIR, "production")) + os.sep
+SRC_DIR        = os.path.abspath(os.path.join(ROOT_DIR, "src")) + os.sep
 TRAINING_DIR   = os.path.abspath(os.path.join(SRC_DIR, "training")) + os.sep
 DATASETS_DIR   = os.path.abspath(os.path.join(SRC_DIR, "datasets")) + os.sep
+SRC_MODELS_DIR = os.path.abspath(os.path.join(SRC_DIR, "models")) + os.sep

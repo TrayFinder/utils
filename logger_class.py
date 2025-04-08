@@ -2,7 +2,7 @@
 import os
 import time
 import logging
-import src.utils.config as constants
+import utils.config as constants
 
 class LoggerClass:
     """Job: abstract all log generation/configuration"""
